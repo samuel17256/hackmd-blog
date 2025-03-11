@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackmd-io | html tailwindcss</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="bg-black font-mono">
+    <!--header section-->
+    <header>
+        <nav class="fixed top-0 z-10 shadow-2xl bg-black bg-opacity-65 backdrop-blur w-full">
+            <div class="container mx-auto flex justify-between items-center py-4 px-3 flex-row">
+                <div>
+                   <a href="#"><img src="logo-full.svg" alt="hackmd-logo" height="80px" width="140px"></a>
+                </div>
+                <ul class="text-white text-sm px-11 flex list-none gap-4">
+                    <li class="hover:underline"><a href="#">Blog</a></li>
+                    <li class="hover:underline"><a href="#">Product</a></li>  
+                    <li class="hover:underline"><a href="#">Company</a></li>  
+                    <li class="hover:underline"><a href="#">Changelog</a></li>                
+                    <li class="hover:underline"><a href="#">Education</a></li>
+                </ul>
+                <div class="text-white text-sm">
+                    <button class="border border-solid border-gray-600 px-2 py-2 rounded-md
+                    hover:bg-gray-600">Sign In</button>
+                    <a href="#"><button  class="border border-none px-8 py-2 bg-gradient-to-r from-indigo-900 to-indigo-700 hover:bg-gradient-to-r hover:from-indigo-900 hover:to-indigo-500 rounded-sm">Get HackMD Free</button></a>
+                </div>
+            </div>
+        </nav>
+        <!--use case section-->
+        <section class="bg-cover h-full w-auto mx-6 rounded-3xl bg-[url(https://hackmd.io/bg-gradient-light-purple-rectangle.svg)]">
+            <div class="flex  pt-36 px-14 pb-10 items-center gap-12 bg-purple-950  bg-opacity-40 rounded-3xl">
+                <div class="py-6">
+                 <img src="img/hackmd-hero.jpg" alt="hero-image" height="500px" width="700px" class="rounded-2xl">
+                </div>
+                <div class="text-white p-8 relative ">
+                    <span class="text-sm bg-indigo-900 py-1 px-3 rounded-md">#en</span>
+                    <span class="text-sm bg-indigo-900 py-1 px-3 rounded-md">#use-case</span>
+                    <div class="text-4xl font-extrabold font-sans"><a href="#">How I use HackMD in  Open Source projects</a></div>
+                    <div class="text-xs text-slate-400 py-6"><p>Feb 26, 2025 By . Chaseton Collins</p></div>
+                    <div class="pt-12 items-center">
+                        <button class="border border-solid border-slate-600  px-3 py-1 hover:bg-gradient-to-r hover:from-indigo-900 hover:to-indigo-500">Read more <i class='bx bx-right-arrow-alt hover:-rotate-45'></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!--main section-->
+    <main>
+        <!--recent post section-->
+        <section>
+            <div class=" text-white pl-24 pt-11 text-3xl font-semibold">
+                <h1>Recent posts</h1>
+            </div>
+            <div class="flex gap-6 justify-center items-center  mt-10">
+                <div class="rounded-xl bg-[#161616] w-[350px] h-full px-6 py-10 border border-gray-500 hover:bg-gray-700 cursor-pointer">
+                  <img src="img/hackmd-1.jpg" class="rounded-md" alt="hackmd-1" height="300px" width="400px">
+                    <div class="gap-4 mt-2">
+                      <span class="text-sm bg-indigo-900 py-1 px-3 rounded-md text-white">#en</span>
+                      <span class="text-sm bg-indigo-900 py-1 px-3 rounded-md text-white">#use-case</span>
+                      <p class="pt-4 font-semibold text-xl text-white">Fall in love with <br> documentation this <br> February</p>
+                      <p class="pt-4 text-gray-400 text-xs text-wrap">Did you miss HackMD's exciting updates over the past month? Catch up on that <br> and  more in February's Markdown Mmeo.</p>
+                      <p class="pt-10 pb-6 text-gray-400 text-xs relative top-10">Feb 12, 2025 . By Chaseton Collins</p>
+                    </div>
+                </div>
+
+                <div class="rounded-md bg-[#161616] w-[350px] h-full px-6 py-10 border border-gray-500 hover:bg-gray-700 cursor-pointer">
+                    <img src="img/hackmd-2.jpg" class="rounded-md" alt="hackmd-2" height="300px" width="400px">
+                    <div class="gap-4 mt-2">
+                      <span class="text-sm bg-indigo-900 py-1 px-3 rounded-md text-white">#en</span>
+                      <span class="text-sm bg-indigo-900 py-1 px-3 rounded-md text-white">#community</span>
+                      <p class="pt-4 font-semibold text-xl text-white">Fall in love with <br> documentation this <br> February</p>
+                      <p class="pt-4 text-gray-400 text-xs">Did you miss HackMD's exciting updates over the past month? Catch up on that <br>  and more in February's Markdown Mmeo.</p>
+                      <p class="pt-10 pb-6 text-gray-400 text-xs relative top-10">Feb 12, 2025 . By Chaseton Collins</p>
+                    </div>
+                </div>
+                <div class="rounded-md bg-[#161616] w-[350px]  px-6 py-10 border border-gray-500 hover:bg-gray-700 cursor-pointer">
+                    <img src="img/hackmd-3.jpg" class="rounded-md" alt="hackmd-3" height="300px" width="400px">
+                    <div class="gap-4 mt-2">
+                      <span class="text-sm bg-indigo-900 py-1 px-3 rounded-md text-white">#en</span>
+                      <span class="text-sm bg-indigo-900 py-1 px-3 rounded-md text-white">#community</span>
+                      <p class="pt-4 font-semibold text-xl text-white">Fall in love with <br> documentation this <br> February</p>
+                      <p class="pt-4 text-gray-400 text-xs">Did you miss HackMD's exciting updates over the past month? Catch up on that <br> and  more in February's Markdown Mmeo.</p>
+                      <p class="pt-10 pb-6 text-gray-400 text-xs relative top-10">Feb 12, 2025 . By Chaseton Collins</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-6 justify-center items-center  mt-10">
+                <div class="rounded-xl bg-[#161616] w-[350px] h-full px-6 py-10 border border-gray-500 hover:bg-gray-700 cursor-pointer">
+                  <img src="img/hackmd-4.jpg" class="rounded-md" alt="hackmd-1" height="300px" width="400px">
+                    <div class="gap-4 mt-2">
+                      <span class="text-sm bg-indigo-900 py-1 px-3 rounded-md text-white">#en</span>
+                      <span class="text-sm bg-indigo-900 py-1 px-3 rounded-md text-white">#use-case</span>
+                      <p class="pt-4 font-semibold text-xl text-white">Fall in love with <br> documentation this <br> February</p>
+                      <p class="pt-4 text-gray-400 text-xs text-wrap">Did you miss HackMD's exciting updates over the past month? Catch up on that <br> and  more in February's Markdown Mmeo.</p>
+                      <p class="pt-10 pb-6 text-gray-400 text-xs relative top-10">Feb 12, 2025 . By Chaseton Collins</p>
+                    </div>
+                </div>
+
+                <div class="rounded-md bg-[#161616] w-[350px] h-full px-6 py-10 border border-gray-500 hover:bg-gray-700 cursor-pointer">
+                    <img src="img/hackmd-5.jpg" class="rounded-md" alt="hackmd-2" height="300px" width="400px">
+                    <div class="gap-4 mt-2">
+                      <span class="text-sm bg-indigo-900 py-1 px-3 rounded-md text-white">#en</span>
+                      <span class="text-sm bg-indigo-900 py-1 px-3 rounded-md text-white">#product</span>
+                      <p class="pt-4 font-semibold text-xl text-white">Fall in love with <br> documentation this <br> February</p>
+                      <p class="pt-4 text-gray-400 text-xs">Did you miss HackMD's exciting updates over the past month? Catch up on that <br>  and more in February's Markdown Mmeo.</p>
+                      <p class="pt-10 pb-6 text-gray-400 text-xs relative top-10">Feb 12, 2025 . By Chaseton Collins</p>
+                    </div>
+                </div>
+
+                <div class="rounded-md bg-[#161616] w-[350px]  px-6 py-10 border border-gray-500 hover:bg-gray-700 cursor-pointer">
+                    <img src="img/hackmd-6.png" class="rounded-md" alt="hackmd-3" height="300px" width="400px">
+                    <div class="gap-4 mt-2">
+                      <span class="text-sm bg-indigo-900 py-1 px-3 rounded-md text-white">#en</span>
+                      <span class="text-sm bg-indigo-900 py-1 px-3 rounded-md text-white">#newsletter</span>
+                      <p class="pt-4 font-semibold text-xl text-white">Fall in love with <br> documentation this <br> February</p>
+                      <p class="pt-4 text-gray-400 text-xs">Did you miss HackMD's exciting updates over the past month? Catch up on that <br> and  more in February's Markdown Mmeo.</p>
+                      <p class="pt-10 pb-6 text-gray-400 text-xs relative top-10">Feb 12, 2025 . By Chaseton Collins</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-center text-gray-500 py-14 gap-3 cursor-pointer">
+                <span class="border border-gray-500 px-2 py-1 rounded-md hover:bg-gray-600"><i class='bx bx-chevron-left hover:text-white'></i></span>
+                <span class="px-3 py-1 rounded-md bg-gray-700 text-white">1</span>
+                <span class="px-3 py-1 rounded-md hover:bg-gray-700 hover:text-white">2</span>
+                <span class="px-3 py-1 rounded-md hover:bg-gray-700 hover:text-white">3</span>
+                <span class="px-2 py-1 rounded-md bg-gray-600  text-white text-xl"><i class='bx bx-dots-horizontal-rounded'></i></span>
+                <span class="border border-gray-500 px-2 py-1 rounded-md hover:bg-gray-600 hover:text-white">14</span>
+                <span class="border border-gray-500 px-2 py-1 rounded-md hover:bg-gray-600 hover:text-white"><i class='bx bx-chevron-right hover:text-white'></i></span>
+            </div>
+        </section>
+        
+        <!-- newletter section  -->
+        <section  class="mx-auto wid-full  px-7 py-8 md:py-4 container">
+            <div class="flex flex-col justify-center items-center">
+                <div class="flex flex-col  gap-1.5 text-white md:gap-1 bg-gradient-to-r from-indigo-950 to-indigo-950 px-10 py-10  rounded-3xl w-[1100px]">
+                    <h2 class="font-bold text-3xl mt-5 text-gray-400">Subscribe to our Newsletter</h2>
+                    <span class="text-body leading-body font-mono text-xs pt-8">
+                    "build with confidence.  Never miss a beat. learn about the latest product <br> updates, comapany happennings, and technical guide in our monthly newsletter."
+                    </span>
+                    <form class="flex justify-start gap-4 pt-8 ">
+                    <input class="border border-sol
+                    id border-transparent rounded-md px-24 py-[8px] bg-indigo-900 hover:border hocus:shadow-xl hover:border-gray-200" type="email" placeholder="you@company.come">
+                    <button class="border rounded-md px-6 py-[8px] text-slate-500 bg-white hover:bg-gradient-to-r from-indigo-900 to-indigo-500 white hover:text-white">subscribe</button>
+                  </form>
+                </div>
+            </div>
+        </section>
+
+        <!--section changelog-->
+        <section>
+            <div class="flex flex-row justify-evenly pb-5 pt-5 container mx-auto items-center"> 
+                <div>
+                    <div class="flex py-14 justify-between">
+                       <h2 class="text-[rgba(172,170,196,255)] text-3xl font-extrabold">Changelog</h2> 
+                       <span class="text-[#625f9c]">
+                        View Changelog
+                        <i class='bx bx-right-arrow-alt transition-transform hover:scale-90'></i>
+                        </span> 
+                    </div>
+                      
+                    <div class="relative  border-l-[2px] border-l-[#4b3987] h-82  m-x-10  ml-5">
+                        <!-- first row -->
+                        <div class="flex pb-5 pt-3">
+                            <!-- svg -->
+                            <div class="pb-5">
+                               <img class="w-5 h-5 absolute left-[-12.5px] bg-gradient-to-r from-[#4b3987] to-[#6a5acd] rounded-xl md-5" src="img/circle.jpeg" alt="">
+                            </div>
+                            <div class="pl-5">
+                                <h3 class="text-[#fafbfb] pb-5 text-2xl font-bold">Track Every Edit with Show Edit History</h3>
+                                <div class="text-[#82838a] pb-5">
+                                   <p class="pb-5 text-xs">Get more organized with folders.</p>
+                                   <p class="text-[#625f9c] text-xs">Feb 19, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+          
+                        <!-- second row -->
+                        <div class="flex pb-5">
+                            <div class="pb-5">
+                                <img class="w-5 h-5 absolute left-[-12.5px] bg-gradient-to-r from-[#4b3987] to-[#6a5acd] rounded-xl md-5" src="img/circle.jpeg" alt="">
+                            </div>
+                              
+                            <!-- <div><i class='bx bx-circle absolute left-[-12.5px]'></i></div> -->
+                            <div class="pl-5">
+                                <h3 class="text-[#fafbfb] pb-5  text-2xl font-bold">Get more organized with folders.</h3>
+                                <div class="text-[#82838a] pb-5">
+                                    <p class="pb-5 text-xs">Get more organized with folders.</p>
+                                    <p class="text-[#625f9c] text-xs">Feb 19, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- third -->
+                        <div class="flex pb-5">
+                            <img class="w-5 h-5 absolute left-[-12.5px] bg-gradient-to-r from-[#4b3987] to-[#6a5acd] rounded-xl " src="img/circle.jpeg" alt="">
+                             
+                            <div class="ml-5">
+                                <h3 class="text-[#fafbfb] pb-5  text-2xl font-bold">The streamlined Floating Toolbar</h3>
+                                <div class="text-[#82838a] pb-5 ">
+                                    <p class="pb-5 text-xs">
+                                       Personalize your reading experience with new Light and Dark modes, and explore our brand new NeoLight and <br>NeoDark color themes for the editor.
+                                    </p>
+                                    <p class="text-[#625f9c] text-xs">Feb 19, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+          
+                        <div class="flex">
+                            <img class="w-5 h-5 absolute left-[-12.5px] bg-gradient-to-r from-[#4b3987] to-[#6a5acd] rounded-xl " src="img/circle.jpeg" alt="">
+                            <div class="ml-5">
+                                <h3 class="text-[#fafbfb] pb-5  text-2xl font-bold">New Themes & Reading Experience</h3>
+                                <div class="text-[#82838a] pb-5">
+                                    <p class="pb-5 text-xs">
+                                     Personalize your reading experience with new Light and Dark modes, and explore our brand new NeoLight and <br>NeoDark color themes for the editor.
+                                    </p>
+                                    <p class="text-[#625f9c] text-xs">Feb 19, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div> 
+        </section>
+
+        <section class="flex justify-center items-center min-h-screen container mx-auto">
+            <div class="bg-gradient-to-r from-indigo-900 to-indigo-400  px-5 py-[80px] rounded-2xl container  bg-cover bg-center  w-[1100px]" 
+                 style="background-image: url('https://hackmd.io/bg-gradient-light-purple-rectangle.svg');">
+                <div class="px-6 flex w-full flex-col items-center gap-10 md:gap-9 bg-center">
+                    <div class="flex flex-col gap-3 text-center md:gap-2 font-mono">
+                        <span class="text-4xl text-slate-300 font-bold">Get started for free</span>
+                        <span class="text-slate-400 text-sm">Play around with it first. Pay and add your team later.</span>
+                    </div>
+                    <button class="flex items-center border rounded-md px-5 py-3 text-indigo-900 text-sm bg-white hover:bg-gradient-to-r hover:text-white">
+                            Get started for free <i class='bx bx-right-arrow-alt text-2xl pl-4 hover:-rotate-45'></i>
+                    </button>
+                </div>
+            </div>
+        </section>    
+    </main>
+    <!--footer-->
+    <footer class="bg-zinc-900">
+    <div class="border-b-slate-600 border-b m-4 pt-5">
+        <div class=" h-80 flex justify-between text-white m-5 text-sm flex-row">
+            <div class="py-7">
+                <img src="logo-full.svg" width="140" alt="logo-full" height="100">
+                <p class="text-xs py-6">Build together with the ultimate Markdown editor.</p>
+            </div>
+            <div class="flex  text-white gap-4 list-none mb-2 justify-between text-center">
+                <div class="p-6">
+                    <h4 class="text-slate-500 font-bold text-left">Learning</h4>
+                    <div class="py-6">
+                        <ul class="space-y-4 text-left">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Tutorial book</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="py-6 px-8">
+                    <h4 class="text-slate-500 font-bold text-left">Resources</h4>
+                    <div class="py-6">
+                        <ul class="space-y-4 text-left">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Changelog</a></li>
+                        <li><a href="#">Enterprise</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="py-6 px-8">
+                    <h4 class="text-slate-500 font-bold text-left">Policy</h4>
+                    <div class="py-6">
+                        <ul class="space-y-4 text-left">
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" flex justify-between m-4">
+            <div class="flex border border-slate-600  px-2  w-40 hover:bg-slate-700">
+                <span class="absolute pr-14 pt-3"><i class='bx bx-globe text-white'></i></span>
+                <select class=" bg-inherit text-white pl-4">
+                    <option class="bg-slate-500" value="english">English</option>
+                    <option class="bg-slate-500" value="最近の更">最近の更</option>
+                    <option class="bg-slate-500" value="サービス">サービス</option>
+                </select>
+            </div>
+            <div class="flex gap-5 bottom-7 text-2xl text-white">
+                <i
+                    class='bx bxl-linkedin-square  p-3 rounded-full border-solid border border-slate-400 hover:bg-gradient-to-r hover:from-indigo-900 hover:to-indigo-200'></i>
+                <i
+                    class='bx bxl-facebook-circle p-3 rounded-full border-solid border border-slate-400 hover:bg-gradient-to-r hover:from-indigo-900 hover:to-indigo-200'></i>
+                <i
+                    class='bx bx-x p-3 rounded-full border-solid border border-slate-400 hover:bg-gradient-to-r hover:from-indigo-900 hover:to-indigo-200'></i>
+                <i
+                    class='bx bxl-discord-alt p-3 rounded-full border-solid border border-slate-400 hover:bg-gradient-to-r hover:from-indigo-900 hover:to-indigo-200'></i>
+            </div>
+        </div>
+    </div>
+    <div>
+        <p class="text-center text-xs text-gray-300">© 2025 HackMD. All Rights Reserved.</p>
+    </div>
+   </footer>
+</body>
+</html>

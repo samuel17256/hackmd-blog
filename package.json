@@ -1,0 +1,12 @@
+{
+  "name": "hackmd-io",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+   "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
